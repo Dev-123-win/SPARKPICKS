@@ -1,0 +1,268 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main {
+  flex: 1;
+  padding: 40px 48px;
+  overflow-x: auto;
+  background: #f9f9f9;
+}
+
+/* ─── HEADER ─── */
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.pageTitle {
+  margin-bottom: 6px;
+  color: var(--ink);
+}
+
+.pageSubtitle {
+  font-size: 14px;
+  color: var(--on-surface-variant);
+}
+
+.viewStorefront {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--soft-cloud-border);
+  padding-bottom: 2px;
+  transition: opacity var(--transition);
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+
+.viewStorefront:hover {
+  opacity: 0.6;
+}
+
+/* ─── STATS ─── */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.statCard {
+  background: var(--canvas);
+  border: 1px solid var(--soft-cloud-border);
+  padding: 24px;
+  animation: fadeUp 0.4s ease both;
+}
+
+.statHighlight {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--canvas);
+}
+
+.statHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.statLabel {
+  font-size: 10px;
+}
+
+.statHighlight .statLabel {
+  color: rgba(255,255,255,0.5);
+}
+
+.statIcon {
+  opacity: 0.4;
+}
+
+.statHighlight .statIcon {
+  color: var(--canvas);
+}
+
+.statValue {
+  font-family: var(--font-display);
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.statHighlight .statValue {
+  color: var(--canvas);
+}
+
+/* ─── TABLE ─── */
+.tableSection {
+  background: var(--canvas);
+  border: 1px solid var(--soft-cloud-border);
+  animation: fadeUp 0.4s ease 0.1s both;
+}
+
+.tableHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 24px 20px;
+  border-bottom: 1px solid var(--soft-cloud-border);
+}
+
+.tableTitle {
+  color: var(--ink);
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeadRow {
+  border-bottom: 1px solid var(--soft-cloud-border);
+}
+
+.th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--on-surface-variant);
+  white-space: nowrap;
+}
+
+.tableRow {
+  border-bottom: 1px solid var(--soft-cloud);
+  transition: background var(--transition);
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+.tableRow:hover {
+  background: var(--soft-cloud);
+}
+
+.td {
+  padding: 14px 16px;
+  vertical-align: middle;
+}
+
+.productThumb {
+  width: 44px;
+  height: 44px;
+  background: var(--soft-cloud);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.productThumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productName {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 2px;
+  transition: color var(--transition);
+}
+
+.productName:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+.discountTag {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--sale-red);
+  letter-spacing: 0.04em;
+}
+
+.category {
+  font-size: 13px;
+  color: var(--on-surface-variant);
+}
+
+.price {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--on-surface-variant);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+  text-decoration: none;
+}
+
+.actionBtn:hover {
+  background: var(--soft-cloud-border);
+  color: var(--ink);
+}
+
+.deleteBtn:hover {
+  background: #fce8e8;
+  color: var(--sale-red);
+}
+
+.deleteConfirm {
+  background: var(--sale-red) !important;
+  color: white !important;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+  border-top: 1px solid var(--soft-cloud-border);
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 24px 16px;
+  }
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+}

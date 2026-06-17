@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1",
+    "slug": "onyx-horizon-smartwatch",
+    "title": "Onyx Horizon Smartwatch",
+    "brand": "ONYX",
+    "category": "Wearables",
+    "price": 259.00,
+    "originalPrice": 320.00,
+    "status": "published",
+    "heroPlacement": false,
+    "featured": true,
+    "rating": 4.5,
+    "reviewCount": 28,
+    "description": "The definitive smartwatch for the serious athlete. Precision-engineered carbon fiber case with sapphire crystal display and 14-day battery life.",
+    "curatorNote": "A flawless blend of athletic performance and everyday elegance. The Onyx Horizon is our top pick for those who demand precision in every metric.",
+    "features": [
+      "Ultra-thin carbon fiber bezel",
+      "14-day extended battery mode",
+      "Advanced health monitoring suite",
+      "Military-grade water resistance 50M",
+      "Always-on retina display"
+    ],
+    "externalUrl": "https://example.com/onyx-horizon",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&q=80",
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&q=80"
+    ],
+    "tags": ["smartwatch", "fitness", "wearable"]
+  },
+  {
+    "id": "2",
+    "slug": "aura-noise-cancelling-headphones",
+    "title": "Aura Noise-Cancelling Headphones",
+    "brand": "AURA",
+    "category": "Audio",
+    "price": 349.00,
+    "originalPrice": 399.00,
+    "status": "draft",
+    "heroPlacement": false,
+    "featured": false,
+    "rating": 4.7,
+    "reviewCount": 64,
+    "description": "Studio-grade noise cancellation meets audiophile-quality drivers. 40-hour battery and ultra-soft memory foam ear cushions for all-day wear.",
+    "curatorNote": "The gold standard for noise cancellation. Perfect for focus sessions, long haul flights, or simply blocking out the world.",
+    "features": [
+      "Active Noise Cancellation 2.0",
+      "40-hour battery life",
+      "Hi-Res Audio certified",
+      "Memory foam ear cushions",
+      "Multi-device pairing (3 devices)"
+    ],
+    "externalUrl": "https://example.com/aura-headphones",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&q=80",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&q=80"
+    ],
+    "tags": ["headphones", "audio", "noise-cancelling"]
+  },
+  {
+    "id": "3",
+    "slug": "polaris-instant-camera",
+    "title": "Polaris Instant Camera",
+    "brand": "POLARIS",
+    "category": "Photography",
+    "price": 129.00,
+    "originalPrice": 159.00,
+    "status": "published",
+    "heroPlacement": false,
+    "featured": true,
+    "rating": 4.3,
+    "reviewCount": 41,
+    "description": "Capture life instantly with retro-modern aesthetics and crisp Zink technology prints. No ink cartridges required.",
+    "curatorNote": "The best instant camera for creatives who value both aesthetic and output quality. Slim profile that fits in any jacket pocket.",
+    "features": [
+      "Zink zero-ink technology",
+      "Built-in Bluetooth printing",
+      "12-megapixel CMOS sensor",
+      "Micro SD storage up to 256GB",
+      "Selfie mirror & dual shutter"
+    ],
+    "externalUrl": "https://example.com/polaris-camera",
+    "images": [
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=80",
+      "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?w=600&q=80",
+      "https://images.unsplash.com/photo-1582142839970-2b9e04b60f65?w=600&q=80"
+    ],
+    "tags": ["camera", "photography", "instant"]
+  },
+  {
+    "id": "4",
+    "slug": "velocity-proto-sneakers",
+    "title": "Velocity Proto Sneakers",
+    "brand": "VELOCITY",
+    "category": "Footwear",
+    "price": 210.00,
+    "originalPrice": 250.00,
+    "status": "published",
+    "heroPlacement": true,
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 112,
+    "description": "The definitive urban runner. Engineered for seamless impact. Curated exclusively for the SparkPicks vanguard. Limited inventory available.",
+    "curatorNote": "Our hero pick. The Velocity Proto is the shoe of the season — a masterclass in athletic minimalism with a cult following.",
+    "features": [
+      "Carbon fiber outsole plate",
+      "Responsive ProFoam midsole",
+      "Engineered mesh upper",
+      "Heel counter stability system",
+      "Recycled lace system"
+    ],
+    "externalUrl": "https://example.com/velocity-proto",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+      "https://images.unsplash.com/photo-1608231387042-66d1773d3028?w=600&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&q=80"
+    ],
+    "tags": ["sneakers", "running", "footwear"]
+  },
+  {
+    "id": "5",
+    "slug": "aeroglide-pro-carbon-fiber-bicycle",
+    "title": "Aeroglide Pro Carbon Fiber Bicycle",
+    "brand": "AEROGLIDE",
+    "category": "Cycling",
+    "price": 2409.80,
+    "originalPrice": 3012.25,
+    "status": "published",
+    "heroPlacement": false,
+    "featured": true,
+    "rating": 4.9,
+    "reviewCount": 4,
+    "description": "Engineered for the performance rider. Full carbon frame with integrated cable routing, aerodynamic tube profiles, and electronic shifting compatibility for an uncompromised ride experience.",
+    "curatorNote": "The pinnacle of road cycling performance. The Aeroglide Pro represents the very best in modern carbon engineering — a race-ready machine available to serious enthusiasts.",
+    "features": [
+      "Ultra-lightweight 7750g carbon monocoque frame",
+      "Fully integrated cable routing system",
+      "Shimano Ultegra Di2 12-speed groupset",
+      "Aeroprime Clincher wheelset included",
+      "Internal storage compartment provided"
+    ],
+    "externalUrl": "https://example.com/aeroglide-bicycle",
+    "images": [
+      "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&q=80",
+      "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=600&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
+    ],
+    "tags": ["bicycle", "cycling", "carbon fiber"]
+  },
+  {
+    "id": "6",
+    "slug": "heavyweight-core-tee",
+    "title": "Heavyweight Core Tee",
+    "brand": "CORE",
+    "category": "Apparel",
+    "price": 45.00,
+    "originalPrice": 65.00,
+    "status": "published",
+    "heroPlacement": false,
+    "featured": false,
+    "rating": 4.6,
+    "reviewCount": 88,
+    "description": "280gsm premium cotton. Structured silhouette, pre-shrunk, and built to last through 200+ washes without losing shape.",
+    "curatorNote": "The essential wardrobe anchor. Pure cotton, perfect cut, no compromises.",
+    "features": [
+      "280gsm 100% ringspun cotton",
+      "Pre-shrunk construction",
+      "Reinforced shoulder seams",
+      "Tubular knit body",
+      "Available in 8 colorways"
+    ],
+    "externalUrl": "https://example.com/core-tee",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=600&q=80"
+    ],
+    "tags": ["apparel", "tshirt", "basics"]
+  },
+  {
+    "id": "7",
+    "slug": "thermal-pour-flask",
+    "title": "Thermal Pour Flask",
+    "brand": "THERMPRO",
+    "category": "Accessories",
+    "price": 89.00,
+    "originalPrice": 110.00,
+    "status": "published",
+    "heroPlacement": false,
+    "featured": false,
+    "rating": 4.4,
+    "reviewCount": 37,
+    "description": "Double-wall vacuum insulated stainless steel. Keeps liquids hot 24 hours, cold 48 hours. Leak-proof ceramic-coated interior.",
+    "curatorNote": "The minimalist flask that belongs on every desk and trail. Ceramic coating keeps taste pure, always.",
+    "features": [
+      "Double-wall vacuum insulation",
+      "Ceramic-coated interior",
+      "24h hot / 48h cold retention",
+      "BPA-free & dishwasher safe",
+      "Leak-proof twist cap"
+    ],
+    "externalUrl": "https://example.com/thermal-flask",
+    "images": [
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600&q=80"
+    ],
+    "tags": ["flask", "hydration", "accessories"]
+  },
+  {
+    "id": "8",
+    "slug": "stealth-earbud-pro",
+    "title": "Stealth Earbud Pro",
+    "brand": "STEALTH",
+    "category": "Audio",
+    "price": 179.00,
+    "originalPrice": 219.00,
+    "status": "published",
+    "heroPlacement": false,
+    "featured": true,
+    "rating": 4.5,
+    "reviewCount": 53,
+    "description": "True wireless earbuds with spatial audio, 8-hour battery (32h with case), and IPX5 sweat resistance. Adaptive EQ auto-tuned to your ear shape.",
+    "curatorNote": "The best value true wireless earbuds on the market. Spatial audio at this price point is unheard of.",
+    "features": [
+      "Spatial Audio with head tracking",
+      "8h + 32h battery (charging case)",
+      "IPX5 sweat & water resistant",
+      "Adaptive EQ auto-calibration",
+      "Transparency mode"
+    ],
+    "externalUrl": "https://example.com/stealth-earbuds",
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&q=80",
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=600&q=80",
+      "https://images.unsplash.com/photo-1608156639585-b3a776adf5c0?w=600&q=80"
+    ],
+    "tags": ["earbuds", "audio", "wireless"]
+  },
+  {
+    "id": "9",
+    "slug": "aero-helmet-pro",
+    "title": "Aero Helmet Pro",
+    "brand": "AERO",
+    "category": "Safety",
+    "price": 310.00,
+    "originalPrice": 380.00,
+    "status": "published",
+    "heroPlacement": false,
+    "featured": false,
+    "rating": 4.7,
+    "reviewCount": 19,
+    "description": "MIPS-equipped road cycling helmet with Koroyd impact liner. 30% more ventilation than standard road helmets at equal weight.",
+    "curatorNote": "Safety gear that doesn't compromise on performance or aesthetics. The helmet serious cyclists choose.",
+    "features": [
+      "MIPS rotational protection",
+      "Koroyd energy absorbing liner",
+      "30% increased ventilation channels",
+      "Integrated LED rear light",
+      "Aero tail for speed gains"
+    ],
+    "externalUrl": "https://example.com/aero-helmet",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80",
+      "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=600&q=80"
+    ],
+    "tags": ["helmet", "cycling", "safety"]
+  },
+  {
+    "id": "10",
+    "slug": "stealth-polarized-optics",
+    "title": "Stealth Polarized Optics",
+    "brand": "STEALTH",
+    "category": "Eyewear",
+    "price": 145.00,
+    "originalPrice": 180.00,
+    "status": "published",
+    "heroPlacement": false,
+    "featured": false,
+    "rating": 4.6,
+    "reviewCount": 31,
+    "description": "TR90 performance frames with polarized polycarbonate lenses. 100% UV400 protection. Designed for cycling, running and all-day urban use.",
+    "curatorNote": "The utilitarian sunglasses that do everything well. Polarized, light, and built for motion.",
+    "features": [
+      "Polarized polycarbonate lenses",
+      "100% UV400 protection",
+      "TR90 flexible frame",
+      "Anti-slip grip temples",
+      "Scratch-resistant coating"
+    ],
+    "externalUrl": "https://example.com/stealth-optics",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
+      "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=600&q=80"
+    ],
+    "tags": ["sunglasses", "eyewear", "polarized"]
+  }
+]

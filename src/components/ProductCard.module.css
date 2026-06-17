@@ -1,0 +1,103 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--ink);
+  cursor: pointer;
+  group: card;
+}
+
+.imageWrap {
+  position: relative;
+  overflow: hidden;
+  background: var(--soft-cloud);
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-zero);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.saleBadge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.featuredBadge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background: var(--ink);
+  color: var(--canvas);
+}
+
+.info {
+  padding: 12px 0 0;
+}
+
+.category {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--on-surface-variant);
+  margin-bottom: 4px;
+}
+
+.title {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 8px;
+  transition: text-decoration var(--transition);
+}
+
+.card:hover .title {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.original {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Small variant */
+.small .imageWrap {
+  aspect-ratio: 1 / 1;
+}
+
+.small .title {
+  font-size: 12px;
+}
+
+.small .price {
+  font-size: 12px;
+}
